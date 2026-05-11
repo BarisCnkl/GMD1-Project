@@ -3,17 +3,28 @@ using UnityEngine;
 public class CameraController : MonoBehaviour
 {
     
-    public GameObject player;
+    private GameObject player;
     private Vector3 offset;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        offset = transform.position - player.transform.position;
+        player = GameObject.FindGameObjectWithTag("Player");
+        if (player == null)
+        {
+            Debug.LogError("Player object not found. Please ensure the player has the tag 'Player'.");
+        }
+        else
+        {
+            offset = transform.position - player.transform.position;
+        }
     }
 
     // Update is called once per frame
-    void LateUpdate()
+    void Update()
     {
-        transform.position = player.transform.position + offset;
+        if (player != null)
+        {
+            transform.position = player.transform.position + offset;
+        }
     }
 }
