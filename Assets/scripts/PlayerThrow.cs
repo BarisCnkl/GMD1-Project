@@ -47,13 +47,19 @@ public class PlayerThrow : MonoBehaviour
         if (heldStone == null) return;
 
         heldStone.transform.SetParent(null);
-        heldStone.transform.position += new Vector3(0,-0.5f,0); // Adjust for better throw arc
+        heldStone.transform.position += new Vector3(0, -0.5f, 0);
 
         Collider col = heldStone.GetComponent<Collider>();
         col.isTrigger = false;
 
         heldStoneRb.isKinematic = false;
         heldStoneRb.useGravity = false;
+
+        StoneState stoneState = heldStone.GetComponent<StoneState>();
+        if (stoneState != null)
+        {
+            stoneState.SetThrown();
+        }
 
         heldStoneRb.linearVelocity = transform.forward * throwForce;
 
