@@ -3,9 +3,11 @@ using UnityEngine.InputSystem;
 
 public class PlayerThrow : MonoBehaviour
 {
+    
     public Transform holdPoint;
     public float throwForce = 15f;
 
+    [SerializeField] private Camera mainCamera;
     private GameObject heldStone;
     private Rigidbody heldStoneRb;
 
@@ -47,13 +49,12 @@ public class PlayerThrow : MonoBehaviour
         if (heldStone == null) return;
 
         heldStone.transform.SetParent(null);
-        heldStone.transform.position += new Vector3(0, -0.5f, 0);
 
         Collider col = heldStone.GetComponent<Collider>();
         col.isTrigger = false;
 
         heldStoneRb.isKinematic = false;
-        heldStoneRb.useGravity = false;
+        heldStoneRb.useGravity = true;
 
         StoneState stoneState = heldStone.GetComponent<StoneState>();
         if (stoneState != null)
@@ -61,7 +62,9 @@ public class PlayerThrow : MonoBehaviour
             stoneState.SetThrown();
         }
 
-        heldStoneRb.linearVelocity = transform.forward * throwForce;
+        Vector3 throwDirection = mainCamera.transform.forward;
+
+        heldStoneRb.linearVelocity = throwDirection * throwForce;
 
         heldStone = null;
         heldStoneRb = null;
