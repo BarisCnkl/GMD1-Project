@@ -7,10 +7,12 @@ public class PlayerMovement : MonoBehaviour
 
     private Rigidbody rb;
     private Vector2 moveInput;
+    private PlayerHealth health;
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
+        health = GetComponent<PlayerHealth>();
     }
 
     private void Start()
@@ -20,6 +22,8 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (health != null && (health.IsInKnockback || health.IsDead)) return;
+
         Vector3 moveDirection =
             transform.right * moveInput.x +
             transform.forward * moveInput.y;

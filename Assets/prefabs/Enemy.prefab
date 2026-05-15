@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 6576322274282983593}
   - component: {fileID: 3873700193026629447}
   - component: {fileID: -6056946074593901660}
+  - component: {fileID: 1772049680095259085}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -128,6 +129,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62d8b55fafd24384894371802e0ec9d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
+  bubbleBuffer: 0.3
 --- !u!195 &-6056946074593901660
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -150,3 +152,19 @@ NavMeshAgent:
   m_BaseOffset: 1
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &1772049680095259085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7159530606249509690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3953c98bdcdfe542a59bde705ace73f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Game.Runtime::EnemyDamage
+  damage: 10
+  knockbackForce: 10
+  damageCooldown: 1
+  verticalKnockback: 2
