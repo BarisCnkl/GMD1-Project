@@ -67,6 +67,5 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "GMD1-Project.slnx",
-    "dotnet.preferCSharpExtension": true
+    "dotnet.defaultSolution": "GMD1-project.slnx"
 }
