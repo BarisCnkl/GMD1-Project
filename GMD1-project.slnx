@@ -1,4 +1,6 @@
 ﻿<Solution>
+  <Project Path="Game.Runtime.csproj" />
+  <Project Path="Playmode.csproj" />
   <Project Path="Assembly-CSharp-Editor.csproj" />
   <Project Path="Assembly-CSharp.csproj" />
 </Solution>
