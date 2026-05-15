@@ -56,11 +56,13 @@ Assets/scripts/
  player/
   FirstPersonCamera.cs
   playermovement.cs
+  PlayerProtection.cs
   PlayerThrow.cs
  Stone/
   StoneDamage.cs
   StoneSpawner.cs
   StoneState.cs
+ TeddyBear.cs
  TeddyBearSpawner.cs
 Temp/obj/Game.Runtime/.NETStandard,Version=v2.1.AssemblyAttributes.cs
 
@@ -359,6 +361,7 @@ Library/ScriptAssemblies/
  Unity.Properties.SourceGenerator.dll
  Unity.SourceGenerators.dll
  Unity.UIToolkit.SourceGenerator.dll
+../../.vscode/extensions/visualstudiotoolsforunity.vstuc-1.2.2/Analyzers/Microsoft.Unity.Analyzers.dll
 
 [analyzerConfigFiles]
 Temp/obj/Game.Runtime/Game.Runtime.GeneratedMSBuildEditorConfig.editorconfig
