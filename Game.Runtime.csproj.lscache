@@ -51,10 +51,12 @@ TemporaryDependencyNodeTargetIdentifier=netstandard2.1
 
 [sourceFiles]
 Assets/scripts/
+ EnemyDamage.cs
  EnemyMovement.cs
  EnemySpawner.cs
  player/
   FirstPersonCamera.cs
+  PlayerHealth.cs
   playermovement.cs
   PlayerProtection.cs
   PlayerThrow.cs
