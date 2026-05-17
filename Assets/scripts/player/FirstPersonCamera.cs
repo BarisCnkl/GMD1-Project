@@ -4,7 +4,7 @@ using UnityEngine.InputSystem;
 public class FirstPersonCamera : MonoBehaviour
 {
     [SerializeField] private Transform cameraTransform;
-    [SerializeField] private float mouseSensitivity = 100f;
+    [SerializeField] private float mouseSensitivity = 0.1f;
 
     private float xRotation;
     private Vector2 lookInput;
@@ -17,8 +17,8 @@ public class FirstPersonCamera : MonoBehaviour
 
     private void Update()
     {
-        float mouseX = lookInput.x * mouseSensitivity * Time.deltaTime;
-        float mouseY = lookInput.y * mouseSensitivity * Time.deltaTime;
+        float mouseX = lookInput.x * mouseSensitivity;
+        float mouseY = lookInput.y * mouseSensitivity;
 
         // Look up and down with camera
         xRotation -= mouseY;
