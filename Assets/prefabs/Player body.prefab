@@ -365,6 +365,7 @@ GameObject:
   - component: {fileID: 1989129283345035241}
   - component: {fileID: 4090196274236721849}
   - component: {fileID: 7814161609466273791}
+  - component: {fileID: 9091099606934614701}
   m_Layer: 0
   m_Name: Player body
   m_TagString: Player
@@ -570,6 +571,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: Game.Runtime::FirstPersonCamera
   cameraTransform: {fileID: 284625065464452150}
   mouseSensitivity: 100
+--- !u!114 &9091099606934614701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7542370219641329801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68350c827554a824faae1788ee8bd373, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Game.Runtime::PlayerHealth
+  maxHealth: 100
+  currentHealth: 0
+  knockbackDuration: 0.3
+  invincibilityAfterHit: 0.5
 --- !u!1 &8345860635385790149
 GameObject:
   m_ObjectHideFlags: 0

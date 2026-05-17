@@ -18,6 +18,12 @@ public class StoneDamage : MonoBehaviour
 
         if (enemy != null)
         {
+            GameUI gameUI = FindFirstObjectByType<GameUI>();
+            if (gameUI != null)
+            {
+                gameUI.AddKill();
+            }
+
             Destroy(enemy.gameObject);
             Destroy(gameObject);
         }
