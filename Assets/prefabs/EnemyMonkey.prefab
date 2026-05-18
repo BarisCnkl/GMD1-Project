@@ -88,6 +88,8 @@ MonoBehaviour:
   knockbackForce: 10
   damageCooldown: 1
   verticalKnockback: 2
+  attackHitDelay: 0.35
+  attackStopDuration: 0.7
 --- !u!136 &5025538752051308099
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -107,8 +109,8 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.4969596
-  m_Height: 1
+  m_Radius: 0.45
+  m_Height: 1.5
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &3615163009232913809
@@ -124,6 +126,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Game.Runtime::EnemyAnimation
   animator: {fileID: 5866666021909216657, guid: 3316a847264a829478855e4448819887, type: 3}
+  visualModel: {fileID: 0}
+  attackYOffset: 0.25
+  attackOffsetDuration: 0.4
   currentSpeed: 0
 --- !u!1001 &1966572580525768907
 PrefabInstance:
@@ -133,6 +138,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7309771573369017126}
     m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 3316a847264a829478855e4448819887, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3316a847264a829478855e4448819887, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3316a847264a829478855e4448819887, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.5
+      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3316a847264a829478855e4448819887, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -181,6 +198,15 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: df9a7a337ffebb24785bb2e5b292b7b2, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 3316a847264a829478855e4448819887, type: 3}
+      propertyPath: m_WarningMessage
+      value: "\nBinding warning: Some generic clip(s) animate transforms that are
+        already bound by a Humanoid avatar. These transforms can only be changed
+        by Humanoid clips.\n\tTransform 'macaque_r_Hand_bone'\n\tTransform 'macaque_l_Scapula_bone'\n\tTransform
+        'macaque_l_Humerus_bone'\n\tTransform 'macaque_r_Forearm_bone'\n\tTransform
+        'macaque_r_Scapula_bone'\n\tTransform 'macaque_l_Forearm_bone'\n\tTransform
+        'macaque_r_Humerus_bone'\n\tFrom animation clip 'Monkey_Attack'"
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: 3316a847264a829478855e4448819887, type: 3}
       propertyPath: m_ApplyRootMotion
       value: 0
