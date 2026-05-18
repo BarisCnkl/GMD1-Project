@@ -1,4 +1,6 @@
+using System.Collections;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class EnemyDamage : MonoBehaviour
 {
@@ -7,20 +9,37 @@ public class EnemyDamage : MonoBehaviour
     public float damageCooldown = 1f;
     public float verticalKnockback = 2f;
 
+    [Header("Attack Timing")]
+    public float attackHitDelay = 0.35f;
+    public float attackStopDuration = 0.7f;
+
     private float lastDamageTime = -999f;
+    private bool isAttacking;
 
-    void OnCollisionStay(Collision collision)
+    private EnemyAnimation enemyAnimation;
+    private NavMeshAgent agent;
+    private EnemyMovement enemyMovement;
+
+    private void Awake()
     {
-        TryDamage(collision.collider);
+        enemyAnimation = GetComponent<EnemyAnimation>();
+        agent = GetComponent<NavMeshAgent>();
+        enemyMovement = GetComponent<EnemyMovement>();
     }
 
-    void OnTriggerStay(Collider other)
+    private void OnCollisionStay(Collision collision)
     {
-        TryDamage(other);
+        TryStartAttack(collision.collider);
     }
 
-    void TryDamage(Collider other)
+    private void OnTriggerStay(Collider other)
     {
+        TryStartAttack(other);
+    }
+
+    private void TryStartAttack(Collider other)
+    {
+        if (isAttacking) return;
         if (Time.time - lastDamageTime < damageCooldown) return;
         if (!other.CompareTag("Player")) return;
 
@@ -28,17 +47,78 @@ public class EnemyDamage : MonoBehaviour
         if (health == null) return;
         if (!health.CanBeHit()) return;
 
-        Vector3 knockDir = other.transform.position - transform.position;
-        knockDir.y = 0f;
+        StartCoroutine(AttackAfterDelay(other));
+    }
 
-        if (knockDir.sqrMagnitude < 0.0001f)
-            knockDir = Random.insideUnitSphere;
-
-        knockDir.Normalize();
-
-        Vector3 knockback = knockDir * knockbackForce + Vector3.up * verticalKnockback;
-
-        health.TakeDamage(damage, knockback);
+    private IEnumerator AttackAfterDelay(Collider playerCollider)
+    {
+        isAttacking = true;
         lastDamageTime = Time.time;
+
+        StopEnemyMovement();
+
+        if (enemyAnimation != null)
+        {
+            enemyAnimation.PlayAttack();
+        }
+
+        yield return new WaitForSeconds(attackHitDelay);
+
+        if (playerCollider != null)
+        {
+            PlayerHealth health = playerCollider.GetComponent<PlayerHealth>();
+
+            if (health != null && health.CanBeHit())
+            {
+                Vector3 knockDir = playerCollider.transform.position - transform.position;
+                knockDir.y = 0f;
+
+                if (knockDir.sqrMagnitude < 0.0001f)
+                {
+                    knockDir = Random.insideUnitSphere;
+                    knockDir.y = 0f;
+                }
+
+                knockDir.Normalize();
+
+                Vector3 knockback = knockDir * knockbackForce + Vector3.up * verticalKnockback;
+
+                health.TakeDamage(damage, knockback);
+            }
+        }
+
+        yield return new WaitForSeconds(Mathf.Max(0f, attackStopDuration - attackHitDelay));
+
+        ResumeEnemyMovement();
+
+        isAttacking = false;
+    }
+
+    private void StopEnemyMovement()
+    {
+        if (enemyMovement != null)
+        {
+            enemyMovement.enabled = false;
+        }
+
+        if (agent != null)
+        {
+            agent.isStopped = true;
+            agent.ResetPath();
+            agent.velocity = Vector3.zero;
+        }
+    }
+
+    private void ResumeEnemyMovement()
+    {
+        if (agent != null)
+        {
+            agent.isStopped = false;
+        }
+
+        if (enemyMovement != null)
+        {
+            enemyMovement.enabled = true;
+        }
     }
 }

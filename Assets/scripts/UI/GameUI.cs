@@ -43,33 +43,27 @@ public class GameUI : MonoBehaviour
 
     private void FindPlayerComponents()
     {
-        if (player == null)
-        {
-            GameObject playerObject = GameObject.FindGameObjectWithTag("Player");
+        GameObject playerObject = GameObject.FindGameObjectWithTag("Player");
 
-            if (playerObject != null)
-            {
-                player = playerObject;
-            }
+        if (playerObject == null)
+        {
+            Debug.LogWarning("[GameUI] No object with Player tag found.");
+            return;
         }
 
-        if (player != null)
-        {
-            if (playerHealth == null)
-            {
-                playerHealth = player.GetComponent<PlayerHealth>();
-            }
+        player = playerObject;
 
-            if (playerProtection == null)
-            {
-                playerProtection = player.GetComponent<PlayerProtection>();
-            }
+        playerHealth = player.GetComponent<PlayerHealth>();
+        playerProtection = player.GetComponent<PlayerProtection>();
+
+        if (playerHealth == null)
+        {
+            Debug.LogWarning("[GameUI] PlayerHealth not found on " + player.name);
         }
 
-        // Extra fallback, in case PlayerProtection is on another player object
         if (playerProtection == null)
         {
-            playerProtection = FindFirstObjectByType<PlayerProtection>();
+            Debug.LogWarning("[GameUI] PlayerProtection not found on " + player.name);
         }
     }
 
