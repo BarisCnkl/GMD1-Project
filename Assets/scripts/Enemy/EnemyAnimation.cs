@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -5,13 +6,20 @@ public class EnemyAnimation : MonoBehaviour
 {
     [SerializeField] private Animator animator;
 
+    [Header("Attack Visual Offset")]
+    [SerializeField] private Transform visualModel;
+    [SerializeField] private float attackYOffset = 0.25f;
+    [SerializeField] private float attackOffsetDuration = 0.4f;
+
     [Header("Debug")]
     [SerializeField] private float currentSpeed;
 
-    public bool IsDead { get; private set; }
-
     private NavMeshAgent agent;
     private Vector3 lastPosition;
+    private Vector3 originalVisualLocalPosition;
+    private Coroutine attackOffsetRoutine;
+
+    public bool IsDead { get; private set; }
 
     private void Awake()
     {
@@ -29,6 +37,16 @@ public class EnemyAnimation : MonoBehaviour
                     break;
                 }
             }
+        }
+
+        if (visualModel == null && animator != null)
+        {
+            visualModel = animator.transform;
+        }
+
+        if (visualModel != null)
+        {
+            originalVisualLocalPosition = visualModel.localPosition;
         }
 
         lastPosition = transform.position;
@@ -67,6 +85,28 @@ public class EnemyAnimation : MonoBehaviour
         {
             animator.SetTrigger("Attack");
         }
+
+        if (visualModel != null)
+        {
+            if (attackOffsetRoutine != null)
+            {
+                StopCoroutine(attackOffsetRoutine);
+            }
+
+            attackOffsetRoutine = StartCoroutine(AttackYOffsetRoutine());
+        }
+    }
+
+    private IEnumerator AttackYOffsetRoutine()
+    {
+        Vector3 raisedPosition = originalVisualLocalPosition + Vector3.up * attackYOffset;
+
+        visualModel.localPosition = raisedPosition;
+
+        yield return new WaitForSeconds(attackOffsetDuration);
+
+        visualModel.localPosition = originalVisualLocalPosition;
+        attackOffsetRoutine = null;
     }
 
     public void PlayDeath()
@@ -74,6 +114,17 @@ public class EnemyAnimation : MonoBehaviour
         if (IsDead) return;
 
         IsDead = true;
+
+        if (attackOffsetRoutine != null)
+        {
+            StopCoroutine(attackOffsetRoutine);
+            attackOffsetRoutine = null;
+        }
+
+        if (visualModel != null)
+        {
+            visualModel.localPosition = originalVisualLocalPosition;
+        }
 
         if (agent != null)
         {
