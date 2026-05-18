@@ -342,7 +342,7 @@ Transform:
   m_GameObject: {fileID: 7050489609530217199}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.4, y: 0.3, z: 0.8}
+  m_LocalPosition: {x: 0.7, y: -0.4, z: 0.85}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -383,7 +383,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 643669533962634390}
@@ -570,7 +570,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Game.Runtime::FirstPersonCamera
   cameraTransform: {fileID: 284625065464452150}
-  mouseSensitivity: 100
+  lookSensitivity: 100
+  deadzone: 0.15
 --- !u!114 &9091099606934614701
 MonoBehaviour:
   m_ObjectHideFlags: 0

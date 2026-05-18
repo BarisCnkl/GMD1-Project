@@ -4,8 +4,7 @@ using TMPro;
 public class GameUI : MonoBehaviour
 {
     [Header("References")]
-    [SerializeField] private PlayerHealth playerHealth;
-    [SerializeField] private PlayerProtection playerProtection;
+    [SerializeField] private GameObject player;
 
     [Header("UI Texts")]
     [SerializeField] private TextMeshProUGUI healthText;
@@ -13,17 +12,65 @@ public class GameUI : MonoBehaviour
     [SerializeField] private TextMeshProUGUI killText;
     [SerializeField] private TextMeshProUGUI protectionText;
 
+    private PlayerHealth playerHealth;
+    private PlayerProtection playerProtection;
+
     private float timer;
     private int kills;
+
+    private void Start()
+    {
+        FindPlayerComponents();
+
+        if (protectionText != null)
+        {
+            protectionText.gameObject.SetActive(true);
+            protectionText.text = "";
+        }
+    }
 
     private void Update()
     {
         timer += Time.deltaTime;
 
+        FindPlayerComponents();
+
         UpdateHealthText();
         UpdateTimerText();
         UpdateKillText();
         UpdateProtectionText();
+    }
+
+    private void FindPlayerComponents()
+    {
+        if (player == null)
+        {
+            GameObject playerObject = GameObject.FindGameObjectWithTag("Player");
+
+            if (playerObject != null)
+            {
+                player = playerObject;
+            }
+        }
+
+        if (player != null)
+        {
+            if (playerHealth == null)
+            {
+                playerHealth = player.GetComponent<PlayerHealth>();
+            }
+
+            if (playerProtection == null)
+            {
+                playerProtection = player.GetComponent<PlayerProtection>();
+            }
+        }
+
+        // Extra fallback, in case PlayerProtection is on another player object
+        if (playerProtection == null)
+        {
+            playerProtection = FindFirstObjectByType<PlayerProtection>();
+        }
     }
 
     private void UpdateHealthText()
@@ -52,16 +99,17 @@ public class GameUI : MonoBehaviour
 
     private void UpdateProtectionText()
     {
-        if (protectionText == null || playerProtection == null) return;
+        if (protectionText == null) return;
 
-        if (playerProtection.IsProtected)
+        protectionText.gameObject.SetActive(true);
+
+        if (playerProtection != null && playerProtection.IsProtected)
         {
-            protectionText.gameObject.SetActive(true);
             protectionText.text = "Protection Active";
         }
         else
         {
-            protectionText.gameObject.SetActive(false);
+            protectionText.text = "";
         }
     }
 

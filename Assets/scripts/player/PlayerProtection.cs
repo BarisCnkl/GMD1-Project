@@ -22,7 +22,10 @@ public class PlayerProtection : MonoBehaviour
     {
         bubble = GameObject.CreatePrimitive(PrimitiveType.Sphere);
         bubble.name = "ProtectionBubble";
-        bubble.transform.position = transform.position + Vector3.up * bubbleYOffset;
+        Debug.Log("[PlayerProtection] Bubble created");
+
+        bubble.transform.SetParent(transform);
+        bubble.transform.localPosition = Vector3.up * bubbleYOffset;
         bubble.transform.localScale = Vector3.one * protectionRadius * 2f;
 
         Destroy(bubble.GetComponent<SphereCollider>());
@@ -69,7 +72,7 @@ public class PlayerProtection : MonoBehaviour
     {
         if (bubble != null && bubble.activeSelf)
         {
-            bubble.transform.position = transform.position + Vector3.up * bubbleYOffset;
+            bubble.transform.localPosition = Vector3.up * bubbleYOffset;
             bubble.transform.localScale = Vector3.one * protectionRadius * 2f;
         }
     }
