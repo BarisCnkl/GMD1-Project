@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 383ee3ae0406f2940b8dccce7e45efae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemySpawner
-  enemyPrefab: {fileID: 7159530606249509690, guid: 5e96db8401f844a4e957589737533d75, type: 3}
+  enemyPrefab: {fileID: 1670271287647981048, guid: 22e03c250d997be44919ca03aece4e6a, type: 3}
   spawnInterval: 5
-  spawnRange: 1
-  groundY: 2
+  spawnRange: 2
+  groundY: 1

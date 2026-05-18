@@ -8,18 +8,24 @@ public class EnemyDamage : MonoBehaviour
     public float verticalKnockback = 2f;
 
     private float lastDamageTime = -999f;
+    private EnemyAnimation enemyAnimation;
 
-    void OnCollisionStay(Collision collision)
+    private void Awake()
+    {
+        enemyAnimation = GetComponent<EnemyAnimation>();
+    }
+
+    private void OnCollisionStay(Collision collision)
     {
         TryDamage(collision.collider);
     }
 
-    void OnTriggerStay(Collider other)
+    private void OnTriggerStay(Collider other)
     {
         TryDamage(other);
     }
 
-    void TryDamage(Collider other)
+    private void TryDamage(Collider other)
     {
         if (Time.time - lastDamageTime < damageCooldown) return;
         if (!other.CompareTag("Player")) return;
@@ -32,11 +38,19 @@ public class EnemyDamage : MonoBehaviour
         knockDir.y = 0f;
 
         if (knockDir.sqrMagnitude < 0.0001f)
+        {
             knockDir = Random.insideUnitSphere;
+            knockDir.y = 0f;
+        }
 
         knockDir.Normalize();
 
         Vector3 knockback = knockDir * knockbackForce + Vector3.up * verticalKnockback;
+
+        if (enemyAnimation != null)
+        {
+            enemyAnimation.PlayAttack();
+        }
 
         health.TakeDamage(damage, knockback);
         lastDamageTime = Time.time;

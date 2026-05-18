@@ -1,0 +1,1829 @@
+fileFormatVersion: 2
+guid: 3316a847264a829478855e4448819887
+ModelImporter:
+  serializedVersion: 24200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'SitIdle' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'macaque_r_Foot_bone' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'macaque_l_Foot_bone'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'SitClimb' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'macaque_r_Foot_bone'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'macaque_l_Foot_bone'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Sit' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'macaque_r_Foot_bone'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'macaque_l_Foot_bone'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'RunR' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'macaque_r_Foot_bone'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'macaque_l_Foot_bone'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Run' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'macaque_r_Foot_bone'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Roar2' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'macaque_Mandible_bone'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Roar' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'macaque_Mandible_bone'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Jump3' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'macaque_r_Foot_bone'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'macaque_l_Foot_bone'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Jump2' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'macaque_r_Foot_bone'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'macaque_l_Foot_bone'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Jump' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'macaque_r_Foot_bone'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'macaque_l_Foot_bone'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Eat' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'macaque_Mandible_bone'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Die' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'macaque_r_Foot_bone'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'macaque_l_Foot_bone'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'macaque_Mandible_bone'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'ClimbSit' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'macaque_r_Foot_bone'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'macaque_l_Foot_bone'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Smile
+      takeName: Smile
+      internalID: -6966200139118623561
+      firstFrame: 0
+      lastFrame: 241
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: SitIdle
+      takeName: SitIdle
+      internalID: -1443209977815985297
+      firstFrame: 0
+      lastFrame: 241
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: SitClimb
+      takeName: SitClimb
+      internalID: 8176129937556205753
+      firstFrame: 0
+      lastFrame: 241
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Sit
+      takeName: Sit
+      internalID: 1970460594263377210
+      firstFrame: 0
+      lastFrame: 241
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: RunR
+      takeName: RunR
+      internalID: -218142877050272308
+      firstFrame: 0
+      lastFrame: 241
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Run
+      takeName: Run
+      internalID: 5522812681064789136
+      firstFrame: 0
+      lastFrame: 241
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Roar2
+      takeName: Roar2
+      internalID: 7795726580111036890
+      firstFrame: 0
+      lastFrame: 241
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Roar
+      takeName: Roar
+      internalID: 5874199474891123731
+      firstFrame: 0
+      lastFrame: 241
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Jump3
+      takeName: Jump3
+      internalID: 1157644287965254978
+      firstFrame: 0
+      lastFrame: 241
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Jump2
+      takeName: Jump2
+      internalID: -594449180013613936
+      firstFrame: 0
+      lastFrame: 241
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Jump
+      takeName: Jump
+      internalID: 5539831331247536789
+      firstFrame: 0
+      lastFrame: 241
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle2
+      takeName: Idle2
+      internalID: 2562888284788868603
+      firstFrame: 0
+      lastFrame: 241
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle
+      takeName: Idle
+      internalID: -3100369314251171874
+      firstFrame: 0
+      lastFrame: 241
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Eat
+      takeName: Eat
+      internalID: 2530875414512321751
+      firstFrame: 0
+      lastFrame: 241
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Die
+      takeName: Die
+      internalID: -4630339522487117836
+      firstFrame: 0
+      lastFrame: 241
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: ClimbSit
+      takeName: ClimbSit
+      internalID: -839534462834854917
+      firstFrame: 0
+      lastFrame: 241
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: ClimbIdle
+      takeName: ClimbIdle
+      internalID: 7819228553960373753
+      firstFrame: 0
+      lastFrame: 241
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: macaque_Pelvis_bone
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: macaque_l_Thigh_bone
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: macaque_r_Thigh_bone
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: macaque_l_Knee_bone
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: macaque_r_Knee_bone
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: macaque_l_Ankle_bone
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: macaque_r_Ankle_bone
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: macaque_Spine1_bone
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: macaque_Spine2_bone
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: macaque_Neck_bone
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: macaque_Head_bone
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: macaque_l_Scapula_bone
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: macaque_r_Scapula_bone
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: macaque_l_Humerus_bone
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: macaque_r_Humerus_bone
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: macaque_l_Forearm_bone
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: macaque_r_Forearm_bone
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: macaque_l_Hand_bone
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: macaque_r_Hand_bone
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: macaque_l_Finger3_1_bone
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: macaque_r_Finger3_1_bone
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: macaque_l_Eye_bone
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: macaque_r_Eye_bone
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: macaque_Jaw_bone
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: macaque_l_Thumb_1_bone
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: macaque_l_Thumb_2_bone
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: macaque_l_Index_1_bone
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: macaque_l_Index_2_bone
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: macaque_l_Middle_1_bone
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: macaque_l_Middle_2_bone
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: macaque_l_Ring_1_bone
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: macaque_l_Ring_2_bone
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: macaque_l_Ring_3_bone
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: macaque_l_Pinky_1_bone
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: macaque_l_Pinky_2_bone
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: macaque_l_Pinky_3_bone
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: macaque_r_Thumb_1_bone
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: macaque_r_Thumb_2_bone
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: macaque_r_Index_1_bone
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: macaque_r_Index_2_bone
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: macaque_r_Middle_1_bone
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: macaque_r_Middle_2_bone
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: macaque_r_Ring_1_bone
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: macaque_r_Ring_2_bone
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: macaque_r_Ring_3_bone
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: macaque_r_Pinky_1_bone
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: macaque_r_Pinky_2_bone
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: macaque_r_Pinky_3_bone
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: macaque_Spine3_bone
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Monkey_B1(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RL_BoneRoot
+      parentName: Monkey_B1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SK_Mesh_Macaque
+      parentName: RL_BoneRoot
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: macaque_Pelvis_bone
+      parentName: SK_Mesh_Macaque
+      position: {x: -0.000000002781073, y: 0.04144819, z: 0.27017468}
+      rotation: {x: 0.7045441, y: 0.060146824, z: 0.70454293, w: 0.06015928}
+      scale: {x: 1.0000006, y: 1.0000011, z: 1.0000004}
+    - name: macaque_r_Thigh_bone
+      parentName: macaque_Pelvis_bone
+      position: {x: -0.05845323, y: 0.032002266, z: 0.054280013}
+      rotation: {x: 0.03416165, y: -0.14270441, z: 0.98913705, w: -0.008740554}
+      scale: {x: 0.9999996, y: 0.99999994, z: 1.0000002}
+    - name: macaque_r_Knee_bone
+      parentName: macaque_r_Thigh_bone
+      position: {x: 0.16606162, y: -0.000000057220458, z: -0.000000047683713}
+      rotation: {x: -0.014114867, y: 0.021339066, z: -0.29014447, w: -0.9566408}
+      scale: {x: 0.99999994, y: 1, z: 1.0000002}
+    - name: macaque_r_Ankle_bone
+      parentName: macaque_r_Knee_bone
+      position: {x: 0.13597165, y: -0.000000019073486, z: -0.000000047683713}
+      rotation: {x: 0.0203572, y: -0.14719842, z: 0.9872167, w: 0.05763231}
+      scale: {x: 0.9999998, y: 1.0000004, z: 1}
+    - name: macaque_r_Foot_bone
+      parentName: macaque_r_Ankle_bone
+      position: {x: 0.048348278, y: 0.00000002563, z: 0.000000028610234}
+      rotation: {x: 0.0000005692709, y: -0.00000044563785, z: -0.14774218, w: 0.98902595}
+      scale: {x: 0.9999997, y: 1.0000004, z: 1.0000004}
+    - name: macaque_r_Foot_nub_bone
+      parentName: macaque_r_Foot_bone
+      position: {x: 0.037538957, y: -0.000000023841856, z: 0.000000028610229}
+      rotation: {x: 0, y: 0, z: 0.0000000712462, w: 1}
+      scale: {x: 0.9999996, y: 0.99999976, z: 0.99999994}
+    - name: macaque_r_Finger1_1_bone
+      parentName: macaque_r_Foot_bone
+      position: {x: -0.005381553, y: 0.0055469857, z: -0.018059973}
+      rotation: {x: 0.7997827, y: -0.06617675, z: -0.37817475, w: -0.46146744}
+      scale: {x: 1.0000001, y: 0.9999998, z: 0.9999998}
+    - name: macaque_r_Finger1_2_bone
+      parentName: macaque_r_Finger1_1_bone
+      position: {x: 0.022234146, y: -0.0000000083446485, z: 0.0000000053644174}
+      rotation: {x: -0.00000026822082, y: 0.00000022724262, z: -0.098736934, w: 0.9951136}
+      scale: {x: 1, y: 0.9999998, z: 1.0000002}
+    - name: macaque_r_Finger1_2_nub_bone
+      parentName: macaque_r_Finger1_2_bone
+      position: {x: 0.020565467, y: -0.000000010728836, z: 0.000000002980232}
+      rotation: {x: -0.00000022351749, y: -3.667368e-21, z: -0.00000016391283, w: 1}
+      scale: {x: 0.99999964, y: 0.99999976, z: 0.9999997}
+    - name: macaque_r_Finger5_1_bone
+      parentName: macaque_r_Foot_bone
+      position: {x: 0.029275455, y: -0.004034772, z: 0.017930092}
+      rotation: {x: 0.009409869, y: -0.05910714, z: 0.04406832, w: 0.9972341}
+      scale: {x: 1, y: 1.0000004, z: 1}
+    - name: macaque_r_Finger5_2_bone
+      parentName: macaque_r_Finger5_1_bone
+      position: {x: 0.020495852, y: 0.000000009536743, z: -0.000000019073486}
+      rotation: {x: 0.00000024680043, y: -0.00000014901158, z: 0.047338013, w: 0.99887896}
+      scale: {x: 1.0000004, y: 1.0000012, z: 1.000001}
+    - name: macaque_r_Finger5_3_bone
+      parentName: macaque_r_Finger5_2_bone
+      position: {x: 0.015684731, y: -0.0000000166893, z: -0.000000009536743}
+      rotation: {x: 0.00002381286, y: -0.0001028324, z: 0.10390187, w: 0.99458754}
+      scale: {x: 1, y: 1.0000004, z: 1.0000006}
+    - name: macaque_r_Finger5_3_nub_bone
+      parentName: macaque_r_Finger5_3_bone
+      position: {x: 0.013930377, y: 0, z: -0.0000000143051135}
+      rotation: {x: 0, y: -0.00000006589108, z: -0, w: 1}
+      scale: {x: 0.9999997, y: 0.99999976, z: 0.99999976}
+    - name: macaque_r_Finger4_1_bone
+      parentName: macaque_r_Foot_bone
+      position: {x: 0.02925577, y: -0.0040388512, z: 0.006310086}
+      rotation: {x: 0.0028157257, y: -0.01632568, z: 0.03147959, w: 0.99936706}
+      scale: {x: 0.99999994, y: 1.0000002, z: 1.0000002}
+    - name: macaque_r_Finger4_2_bone
+      parentName: macaque_r_Finger4_1_bone
+      position: {x: 0.02266177, y: 0.000000030994418, z: 0}
+      rotation: {x: 0.00000030733636, y: 0.00000024773175, z: 0.0966086, w: 0.9953225}
+      scale: {x: 1, y: 1.0000012, z: 1.0000005}
+    - name: macaque_r_Finger4_3_bone
+      parentName: macaque_r_Finger4_2_bone
+      position: {x: 0.01698788, y: -0.000000021457671, z: -0.000000009536743}
+      rotation: {x: 0.000021114582, y: -0.000103166865, z: 0.10410579, w: 0.9945662}
+      scale: {x: 0.9999997, y: 1.0000004, z: 1.0000001}
+    - name: macaque_r_Finger4_3_nub_bone
+      parentName: macaque_r_Finger4_3_bone
+      position: {x: 0.017136866, y: 0.0000000047683715, z: 0.000000019073486}
+      rotation: {x: 0, y: -0, z: -0.00000014901164, w: 1}
+      scale: {x: 0.99999964, y: 0.9999999, z: 1}
+    - name: macaque_r_Finger3_1_bone
+      parentName: macaque_r_Foot_bone
+      position: {x: 0.029330084, y: -0.004036536, z: -0.004549904}
+      rotation: {x: 0.001155502, y: 0.007955581, z: 0.053514868, w: 0.9985347}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000002}
+    - name: macaque_r_Finger3_2_bone
+      parentName: macaque_r_Finger3_1_bone
+      position: {x: 0.025793087, y: 0.00000002145767, z: -0.000000009536742}
+      rotation: {x: 0.0000001897569, y: -0.00000011268999, z: 0.08624528, w: 0.996274}
+      scale: {x: 0.9999998, y: 1.000001, z: 1.0000005}
+    - name: macaque_r_Finger3_3_bone
+      parentName: macaque_r_Finger3_2_bone
+      position: {x: 0.017527897, y: 0, z: 0.0000000047683715}
+      rotation: {x: -0.0000014759675, y: -0.00010516947, z: 0.07635764, w: 0.9970805}
+      scale: {x: 0.9999997, y: 1.0000001, z: 1.0000004}
+    - name: macaque_r_Finger3_3_nub_bone
+      parentName: macaque_r_Finger3_3_bone
+      position: {x: 0.019246532, y: 0, z: 0.000000004768371}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9999997, y: 1, z: 1.0000001}
+    - name: macaque_r_Finger2_1_bone
+      parentName: macaque_r_Foot_bone
+      position: {x: 0.029553348, y: -0.004057801, z: -0.015289921}
+      rotation: {x: 0.007074471, y: 0.057977784, z: 0.06667981, w: 0.9960634}
+      scale: {x: 0.9999997, y: 0.9999996, z: 0.99999994}
+    - name: macaque_r_Finger2_2_bone
+      parentName: macaque_r_Finger2_1_bone
+      position: {x: 0.023511557, y: 0.000000019073484, z: -0.000000009536742}
+      rotation: {x: -0.00000024121246, y: -0.00000021234148, z: 0.05578325, w: 0.9984429}
+      scale: {x: 1, y: 1.0000011, z: 1.0000001}
+    - name: macaque_r_Finger2_3_bone
+      parentName: macaque_r_Finger2_2_bone
+      position: {x: 0.01511379, y: -0.000000011920928, z: -0.000000009536743}
+      rotation: {x: -0.0000085112615, y: -0.00010610036, z: 0.06326125, w: 0.997997}
+      scale: {x: 0.99999976, y: 1, z: 1.0000004}
+    - name: macaque_r_Finger2_3_nub_bone
+      parentName: macaque_r_Finger2_3_bone
+      position: {x: 0.016271366, y: 0, z: 0.000000019073486}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9999996, y: 0.9999999, z: 0.9999999}
+    - name: macaque_Spine1_bone
+      parentName: macaque_Pelvis_bone
+      position: {x: -0.000000028610229, y: 0.000000038146972, z: -2.2737367e-15}
+      rotation: {x: 0.00000014901158, y: 0.00000010430811, z: -0.9967679, w: 0.08033533}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: macaque_Spine2_bone
+      parentName: macaque_Spine1_bone
+      position: {x: -0.08975159, y: 0.000000019073486, z: -0.000000002280327}
+      rotation: {x: 0.000000007573045, y: -0.00000021336561, z: 0.03390987, w: 0.99942493}
+      scale: {x: 1.0000002, y: 0.99999994, z: 1.0000004}
+    - name: macaque_Spine3_bone
+      parentName: macaque_Spine2_bone
+      position: {x: -0.1097735, y: -0.000000038146972, z: -0.000000025874126}
+      rotation: {x: -0.0000013483894, y: -0.000000114776284, z: -0.0048020943, w: 0.99998856}
+      scale: {x: 1.0000004, y: 0.9999998, z: 1.0000007}
+    - name: macaque_r_Scapula_bone
+      parentName: macaque_Spine3_bone
+      position: {x: -0.0849978, y: 0.010693073, z: 0.075500116}
+      rotation: {x: -0.41427782, y: -0.4306287, z: -0.5559031, w: 0.5778448}
+      scale: {x: 0.99999994, y: 0.9999998, z: 1.0000004}
+    - name: macaque_r_Humerus_FK_bone
+      parentName: macaque_r_Scapula_bone
+      position: {x: 0.061057586, y: 0.000000057220458, z: -0.000000038146972}
+      rotation: {x: -0.50855154, y: -0.041895386, z: 0.3894818, w: 0.766762}
+      scale: {x: 0.9999997, y: 1, z: 0.99999976}
+    - name: macaque_r_Forearm_FK_bone
+      parentName: macaque_r_Humerus_FK_bone
+      position: {x: 0.09466818, y: 0.000000042915342, z: -0.000000026226044}
+      rotation: {x: 0.0010555765, y: 0.26989713, z: -0.0037430064, w: 0.9628813}
+      scale: {x: 0.9999997, y: 1, z: 0.9999999}
+    - name: macaque_r_Hand_FK_bone
+      parentName: macaque_r_Forearm_FK_bone
+      position: {x: 0.17084326, y: 0, z: -0.00000006198883}
+      rotation: {x: 0.49112368, y: 0.22018991, z: -0.5119228, w: 0.66951406}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1.0000001}
+    - name: macaque_r_Humerus_IK_bone
+      parentName: macaque_r_Scapula_bone
+      position: {x: 0.061057586, y: 0.000000057220458, z: -0.000000038146972}
+      rotation: {x: -0.50855154, y: -0.04189551, z: 0.38948175, w: 0.76676214}
+      scale: {x: 0.9999999, y: 1, z: 0.9999999}
+    - name: macaque_r_Forearm_IK_bone
+      parentName: macaque_r_Humerus_IK_bone
+      position: {x: 0.09466818, y: 0.000000023841856, z: 0.000000026226044}
+      rotation: {x: 0.001055668, y: 0.26989746, z: -0.0037429219, w: 0.9628812}
+      scale: {x: 0.99999976, y: 1, z: 0.99999976}
+    - name: macaque_r_Hand_IK_bone
+      parentName: macaque_r_Forearm_IK_bone
+      position: {x: 0.17084318, y: -0.000000019073486, z: 0.000000028610229}
+      rotation: {x: 0.49112326, y: 0.22018965, z: -0.51192296, w: 0.6695143}
+      scale: {x: 0.99999976, y: 0.9999998, z: 1.0000001}
+    - name: macaque_r_Humerus_bone
+      parentName: macaque_r_Scapula_bone
+      position: {x: 0.061057586, y: 0.000000057220458, z: -0.000000038146972}
+      rotation: {x: -0.56639427, y: -0.105692275, z: -0.06091386, w: 0.81505597}
+      scale: {x: 1.0000006, y: 0.9999997, z: 1.0000002}
+    - name: macaque_r_HumerusRoll_bone
+      parentName: macaque_r_Humerus_bone
+      position: {x: -0.000000019073484, y: -0.00000004768371, z: 0.0000000023841855}
+      rotation: {x: 0.29676554, y: 0.00000044703478, z: 0.0000008046626, w: 0.95495033}
+      scale: {x: 0.9999996, y: 0.9999992, z: 0.99999994}
+    - name: macaque_r_Forearm_bone
+      parentName: macaque_r_Humerus_bone
+      position: {x: 0.094668224, y: 0.000000028610227, z: -0.000000028610227}
+      rotation: {x: -0.007859912, y: 0.025088854, z: -0.024093967, w: 0.99936396}
+      scale: {x: 0.99999994, y: 1.0000002, z: 1.0000004}
+    - name: macaque_r_ForearmRoll1_bone
+      parentName: macaque_r_Forearm_bone
+      position: {x: 0.113378845, y: -0.000000047683713, z: -0.0000001001358}
+      rotation: {x: -0.5499702, y: 0.00000014901156, z: -0.0000015550171, w: -0.8351843}
+      scale: {x: 0.9999998, y: 1, z: 0.9999996}
+    - name: macaque_r_ForearmRoll2_bone
+      parentName: macaque_r_Forearm_bone
+      position: {x: 0.056876905, y: -0.000000009536743, z: -0.000000166893}
+      rotation: {x: 0.2870678, y: -0.00000017881388, z: 0.00000088667696, w: 0.95791024}
+      scale: {x: 0.9999997, y: 0.99999994, z: 0.9999996}
+    - name: macaque_r_Hand_bone
+      parentName: macaque_r_Forearm_bone
+      position: {x: 0.17084314, y: 0.000000057220458, z: 0.000000028610229}
+      rotation: {x: -0.6309645, y: 0.02531536, z: 0.06859442, w: -0.7723586}
+      scale: {x: 0.9999997, y: 0.9999998, z: 0.9999997}
+    - name: macaque_r_Hand_nub_bone
+      parentName: macaque_r_Hand_bone
+      position: {x: 0.0635011, y: 0.000000023841856, z: -0.000000019073486}
+      rotation: {x: 0, y: 0, z: 0.000000078231125, w: 1}
+      scale: {x: 0.9999996, y: 0.99999976, z: 0.9999998}
+    - name: macaque_r_Thumb_1_bone
+      parentName: macaque_r_Hand_bone
+      position: {x: 0.028477382, y: 0.011857383, z: -0.01849003}
+      rotation: {x: -0.75615937, y: 0.28038296, z: 0.25402346, w: 0.5339294}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000008}
+    - name: macaque_r_Thumb_2_bone
+      parentName: macaque_r_Thumb_1_bone
+      position: {x: 0.02223423, y: 0.0000000333786, z: 0.000000014305114}
+      rotation: {x: -0, y: 0.00000027939666, z: -0.011631135, w: 0.99993235}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: macaque_r_Thumb_2_nub_bone
+      parentName: macaque_r_Thumb_2_bone
+      position: {x: 0.020565404, y: -0.000000007152557, z: 0.000000028610229}
+      rotation: {x: -0.00000030547383, y: 0, z: -0, w: 1}
+      scale: {x: 0.99999964, y: 0.9999999, z: 1}
+    - name: macaque_r_Index_1_bone
+      parentName: macaque_r_Hand_bone
+      position: {x: 0.06123661, y: -0.002966709, z: -0.018450081}
+      rotation: {x: 0.013349977, y: 0.047584113, z: 0.029042847, w: 0.99835575}
+      scale: {x: 0.9999998, y: 1.0000004, z: 0.99999994}
+    - name: macaque_r_Index_2_bone
+      parentName: macaque_r_Index_1_bone
+      position: {x: 0.021000402, y: 0.00000006198882, z: 0.000000023841855}
+      rotation: {x: 0.0000002346932, y: 0.000000111758666, z: 0.0015130012, w: 0.9999989}
+      scale: {x: 1.0000004, y: 1.0000011, z: 1.000001}
+    - name: macaque_r_Index_3_bone
+      parentName: macaque_r_Index_2_bone
+      position: {x: 0.01793436, y: 0.00000008106232, z: -0.000000052452087}
+      rotation: {x: 0.000033194712, y: -0.00010026738, z: 0.016342597, w: 0.9998665}
+      scale: {x: 0.9999996, y: 0.9999999, z: 0.9999998}
+    - name: macaque_r_Index_3_nub_bone
+      parentName: macaque_r_Index_3_bone
+      position: {x: 0.017773777, y: -0.0000000143051135, z: 0.0000000143051135}
+      rotation: {x: 0, y: -0, z: -0.000000104308135, w: 1}
+      scale: {x: 0.9999996, y: 1, z: 0.9999998}
+    - name: macaque_r_Middle_1_bone
+      parentName: macaque_r_Hand_bone
+      position: {x: 0.06123661, y: -0.002966764, z: -0.0073700547}
+      rotation: {x: 0.0001718997, y: -0.007735654, z: 0.023490326, w: 0.99969417}
+      scale: {x: 0.99999946, y: 1, z: 0.9999997}
+    - name: macaque_r_Middle_2_bone
+      parentName: macaque_r_Middle_1_bone
+      position: {x: 0.021000529, y: 0.0000000047683715, z: -0.000000028610229}
+      rotation: {x: -0.0000002351589, y: -0.000000037252896, z: 0.0015129904, w: 0.9999989}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.0000001}
+    - name: macaque_r_Middle_3_bone
+      parentName: macaque_r_Middle_2_bone
+      position: {x: 0.017934114, y: 0.00000002384186, z: 0.000000030994418}
+      rotation: {x: 0.00003202603, y: -0.000100427416, z: 0.016342381, w: 0.9998665}
+      scale: {x: 0.99999976, y: 0.9999997, z: 0.9999998}
+    - name: macaque_r_Middle_3_nub_bone
+      parentName: macaque_r_Middle_3_bone
+      position: {x: 0.017773705, y: 0.000000014305114, z: 0.000000009536743}
+      rotation: {x: -0.00000006193296, y: 5.7671336e-22, z: -0.00000015646222, w: 1}
+      scale: {x: 0.99999976, y: 0.99999976, z: 0.99999976}
+    - name: macaque_r_Ring_1_bone
+      parentName: macaque_r_Hand_bone
+      position: {x: 0.06123662, y: -0.0029667472, z: 0.005259938}
+      rotation: {x: 0.00017240633, y: -0.007735459, z: 0.023489675, w: 0.9996942}
+      scale: {x: 0.9999997, y: 1.0000004, z: 1}
+    - name: macaque_r_Ring_2_bone
+      parentName: macaque_r_Ring_1_bone
+      position: {x: 0.021000395, y: 0.000000047683713, z: -0.000000014305114}
+      rotation: {x: 0.00000011132212, y: 0.0000004991888, z: 0.0015130967, w: 0.9999989}
+      scale: {x: 1, y: 1.0000007, z: 1.0000002}
+    - name: macaque_r_Ring_3_bone
+      parentName: macaque_r_Ring_2_bone
+      position: {x: 0.017934227, y: -0.000000047683713, z: 0.000000019073486}
+      rotation: {x: 0.00003309354, y: -0.000100573365, z: 0.016342502, w: 0.99986655}
+      scale: {x: 0.99999994, y: 1.0000004, z: 1.0000001}
+    - name: macaque_r_Ring_3_nub_bone
+      parentName: macaque_r_Ring_3_bone
+      position: {x: 0.017773645, y: -0.000000057220454, z: 0}
+      rotation: {x: -2.6032993e-22, y: -0.0000000994187, z: -0.00000010803345, w: 1}
+      scale: {x: 0.99999964, y: 0.9999998, z: 0.9999998}
+    - name: macaque_r_Pinky_1_bone
+      parentName: macaque_r_Hand_bone
+      position: {x: 0.06123658, y: -0.0029667807, z: 0.017499942}
+      rotation: {x: 0.0007293818, y: -0.011291031, z: 0.0141779585, w: 0.99983555}
+      scale: {x: 0.9999996, y: 1.0000004, z: 0.9999997}
+    - name: macaque_r_Pinky_2_bone
+      parentName: macaque_r_Pinky_1_bone
+      position: {x: 0.018870298, y: 0.00000002861023, z: 0.000000009536744}
+      rotation: {x: -0.0000007157213, y: -0.00000023469326, z: -0.019655192, w: 0.9998069}
+      scale: {x: 0.9999998, y: 1.000001, z: 1.0000007}
+    - name: macaque_r_Pinky_3_bone
+      parentName: macaque_r_Pinky_2_bone
+      position: {x: 0.016035099, y: 0.0000000047683715, z: -0.000000047683713}
+      rotation: {x: 0.000031239, y: -0.000101192265, z: 0.02164613, w: 0.9997657}
+      scale: {x: 0.99999994, y: 1, z: 1.0000001}
+    - name: macaque_r_Pinky_3_nub_bone
+      parentName: macaque_r_Pinky_3_bone
+      position: {x: 0.014544926, y: 0.0000000047683715, z: 0.000000019073486}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9999997, y: 0.99999964, z: 0.99999976}
+    - name: macaque_Neck_bone
+      parentName: macaque_Spine3_bone
+      position: {x: -0.13232253, y: -0.000000038146972, z: 0.000000013468452}
+      rotation: {x: -0.0000027787182, y: 0.000006396898, z: -0.19972274, w: 0.97985244}
+      scale: {x: 1.0000002, y: 0.9999998, z: 1.0000004}
+    - name: macaque_Head_bone
+      parentName: macaque_Neck_bone
+      position: {x: -0.05049469, y: -0.0000001335144, z: -0.0000000025924964}
+      rotation: {x: -0.0000022947788, y: 0.0000064074993, z: -0.42203093, w: 0.9065815}
+      scale: {x: 0.9999996, y: 0.9999997, z: 0.999999}
+    - name: macaque_Head_nub_bone
+      parentName: macaque_Head_bone
+      position: {x: -0.07709507, y: -0.000000005960464, z: 0.000000006858463}
+      rotation: {x: -0.0000016599573, y: 0.00000029451195, z: 0.000001013279, w: 1}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: macaque_l_Lip_hlp
+      parentName: macaque_Head_bone
+      position: {x: 0.005215988, y: -0.08794056, z: -0.025572333}
+      rotation: {x: 0.000008071113, y: -0.000009547203, z: 0.63045305, w: 0.77622736}
+      scale: {x: 0.99999994, y: 1.0000004, z: 1.0000007}
+    - name: macaque_Snout_bone
+      parentName: macaque_Head_bone
+      position: {x: 0.004019699, y: -0.047977433, z: -0.0000012214201}
+      rotation: {x: 0.000008792229, y: -0.000008941552, z: 0.569738, w: 0.8218264}
+      scale: {x: 0.99999934, y: 0.99999994, z: 1}
+    - name: macaque_Snout_nub_bone
+      parentName: macaque_Snout_bone
+      position: {x: -0.0628913, y: -0.00000003814697, z: -0.000000067804784}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: macaque_l_UpperLip_hlp
+      parentName: macaque_Snout_bone
+      position: {x: -0.053809807, y: -0.00887947, z: -0.011630167}
+      rotation: {x: -0.000000016546432, y: 0.00000013067843, z: 0.075876534, w: 0.9971173}
+      scale: {x: 1.0000002, y: 1, z: 1.0000002}
+    - name: macaque_r_UpperLip_hlp
+      parentName: macaque_Snout_bone
+      position: {x: -0.05380977, y: -0.00887947, z: 0.011630864}
+      rotation: {x: -0.0000000087456975, y: 0.00000004037473, z: 0.075876564, w: 0.9971172}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: macaque_l_LowerEyelid_bone
+      parentName: macaque_Head_bone
+      position: {x: -0.045728795, y: -0.05046763, z: -0.014821092}
+      rotation: {x: 0.11017049, y: -0.00087265513, z: 0.7863723, w: 0.6078489}
+      scale: {x: 0.99999994, y: 1.0000004, z: 1.0000002}
+    - name: macaque_l_LowerEyelid_nub_bone
+      parentName: macaque_l_LowerEyelid_bone
+      position: {x: -0.016569018, y: 0, z: 0.000000019073486}
+      rotation: {x: 0, y: -0, z: -0.0000001266599, w: 1}
+      scale: {x: 0.99999976, y: 0.99999976, z: 0.99999994}
+    - name: macaque_l_UpperEyelid_bone
+      parentName: macaque_Head_bone
+      position: {x: -0.045728795, y: -0.05046763, z: -0.014821092}
+      rotation: {x: 0.1020776, y: 0.041454513, z: 0.4930542, w: 0.8629944}
+      scale: {x: 0.9999998, y: 1.0000002, z: 1.0000002}
+    - name: macaque_l_UpperEyelid_nub_bone
+      parentName: macaque_l_UpperEyelid_bone
+      position: {x: -0.016569022, y: -0.000000114440915, z: 0}
+      rotation: {x: 0, y: -0, z: -0.0000001601875, w: 1}
+      scale: {x: 0.9999999, y: 0.99999976, z: 0.99999994}
+    - name: macaque_r_UpperEyelid_bone
+      parentName: macaque_Head_bone
+      position: {x: -0.04572899, y: -0.050468363, z: 0.014818433}
+      rotation: {x: -0.041470435, y: 0.102058485, z: 0.8629968, w: -0.49305272}
+      scale: {x: 0.9999997, y: 1.0000002, z: 1.0000005}
+    - name: macaque_r_UpperEyelid_nub_bone
+      parentName: macaque_r_UpperEyelid_bone
+      position: {x: 0.016568907, y: -0.00000007629394, z: -0.00000007629394}
+      rotation: {x: 0, y: -0, z: -0.00000010430813, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 1.0000001}
+    - name: macaque_r_LowerEyelid_bone
+      parentName: macaque_Head_bone
+      position: {x: -0.04572899, y: -0.050468363, z: 0.014818433}
+      rotation: {x: 0.0008496672, y: 0.11015952, z: 0.60785216, w: -0.78637135}
+      scale: {x: 0.9999997, y: 1.0000006, z: 1.0000002}
+    - name: macaque_r_LowerEyelid_nub_bone
+      parentName: macaque_r_LowerEyelid_bone
+      position: {x: 0.016568968, y: 0, z: -0.000000009536744}
+      rotation: {x: 0, y: 0.0000001229346, z: -0, w: 1}
+      scale: {x: 0.99999976, y: 0.9999998, z: 1}
+    - name: macaque_l_Eye_bone
+      parentName: macaque_Head_bone
+      position: {x: -0.045728795, y: -0.05046763, z: -0.014821092}
+      rotation: {x: 0.1079852, y: 0.021851676, z: 0.64421785, w: 0.7568654}
+      scale: {x: 0.99999994, y: 1.0000004, z: 1.0000007}
+    - name: macaque_l_Eye_nub_bone
+      parentName: macaque_l_Eye_bone
+      position: {x: -0.016569054, y: 0, z: 0.000000019073488}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 1.0000001}
+    - name: macaque_r_Lip_hlp
+      parentName: macaque_Head_bone
+      position: {x: 0.005215683, y: -0.08794176, z: 0.025570583}
+      rotation: {x: 0.000008019602, y: -0.000009577193, z: 0.63045305, w: 0.77622736}
+      scale: {x: 0.9999996, y: 1.0000001, z: 1.0000004}
+    - name: macaque_r_Eye_bone
+      parentName: macaque_Head_bone
+      position: {x: -0.04572899, y: -0.050468363, z: 0.014818433}
+      rotation: {x: -0.0218713, y: 0.107969314, z: 0.756868, w: -0.6442167}
+      scale: {x: 0.9999997, y: 1.0000005, z: 1.0000004}
+    - name: macaque_r_Eye_nub_bone
+      parentName: macaque_r_Eye_bone
+      position: {x: 0.016569043, y: 0, z: -0.000000095367426}
+      rotation: {x: -0.000000070780516, y: 0.00000006798655, z: 0.0000000819564, w: 1}
+      scale: {x: 0.9999998, y: 0.99999976, z: 1.0000001}
+    - name: macaque_Mandible_bone
+      parentName: macaque_Head_bone
+      position: {x: 0.018859405, y: -0.01774736, z: -0.00000045957347}
+      rotation: {x: 0.000007292646, y: -0.000010066575, z: 0.6885905, w: 0.7251504}
+      scale: {x: 0.9999998, y: 1, z: 1.0000006}
+    - name: macaque_Jaw_bone
+      parentName: macaque_Mandible_bone
+      position: {x: -0.03369024, y: 0.000000076293944, z: -0.0000000030496448}
+      rotation: {x: -0.000000059604638, y: -0.00000038743013, z: -0.14661796, w: 0.9891932}
+      scale: {x: 1, y: 0.99999994, z: 0.9999998}
+    - name: macaque_Jaw_nub_bone
+      parentName: macaque_Jaw_bone
+      position: {x: -0.062984034, y: 0, z: -0.000000001886874}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9999999, y: 0.9999999, z: 1}
+    - name: macaque_l_LowerLip_hlp
+      parentName: macaque_Jaw_bone
+      position: {x: -0.050915938, y: 0.009024009, z: -0.011730047}
+      rotation: {x: 0.0000000107410685, y: 0.000000001059334, z: 0.008600086, w: 0.99996305}
+      scale: {x: 1.0000002, y: 0.9999998, z: 1.0000005}
+    - name: macaque_r_LowerLip_hlp
+      parentName: macaque_Jaw_bone
+      position: {x: -0.05091588, y: 0.0090238955, z: 0.011728508}
+      rotation: {x: 6.330083e-10, y: 0.00000012007271, z: 0.008600339, w: 0.9999631}
+      scale: {x: 1.0000002, y: 0.9999998, z: 1.0000005}
+    - name: macaque_l_Scapula_bone
+      parentName: macaque_Spine3_bone
+      position: {x: -0.08499779, y: 0.010693474, z: -0.07549814}
+      rotation: {x: 0.43034163, y: -0.41455832, z: 0.5774764, w: 0.5562989}
+      scale: {x: 1, y: 1, z: 1.0000006}
+    - name: macaque_l_Humerus_FK_bone
+      parentName: macaque_l_Scapula_bone
+      position: {x: -0.06105774, y: 0, z: 0}
+      rotation: {x: -0.43557003, y: 0.0068482156, z: 0.3669491, w: 0.82193685}
+      scale: {x: 0.9999999, y: 1.0000002, z: 1.0000001}
+    - name: macaque_l_Forearm_FK_bone
+      parentName: macaque_l_Humerus_FK_bone
+      position: {x: -0.09466809, y: -0.00000010490416, z: 0.000000011920927}
+      rotation: {x: 0.00037838484, y: 0.2443532, z: -0.0014941334, w: 0.9696851}
+      scale: {x: 0.9999999, y: 1.0000001, z: 1}
+    - name: macaque_l_Hand_FK_bone
+      parentName: macaque_l_Forearm_FK_bone
+      position: {x: -0.17084312, y: -0.000000057220458, z: 0.000000114440915}
+      rotation: {x: 0.42577443, y: 0.13370441, z: -0.56543946, w: 0.69362634}
+      scale: {x: 1, y: 1, z: 1.0000002}
+    - name: macaque_l_Humerus_IK_bone
+      parentName: macaque_l_Scapula_bone
+      position: {x: -0.06105772, y: 0.000000019073486, z: 0}
+      rotation: {x: -0.4355703, y: 0.0068481974, z: 0.36694872, w: 0.8219369}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: macaque_l_Forearm_IK_bone
+      parentName: macaque_l_Humerus_IK_bone
+      position: {x: -0.094668046, y: -0.000000085830685, z: -0.00000005483627}
+      rotation: {x: 0.00037827963, y: 0.24435274, z: -0.0014935248, w: 0.9696852}
+      scale: {x: 0.99999976, y: 0.9999999, z: 0.9999998}
+    - name: macaque_l_Hand_IK_bone
+      parentName: macaque_l_Forearm_IK_bone
+      position: {x: -0.17084314, y: -0.0000000667572, z: 0.000000085830685}
+      rotation: {x: 0.425774, y: 0.13370423, z: -0.5654397, w: 0.69362646}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: macaque_l_Humerus_bone
+      parentName: macaque_l_Scapula_bone
+      position: {x: -0.06105774, y: 0, z: 0}
+      rotation: {x: -0.49597633, y: -0.10836441, z: -0.051596764, w: 0.8600014}
+      scale: {x: 1.0000006, y: 0.9999997, z: 0.99999994}
+    - name: macaque_l_HumerusRoll_bone
+      parentName: macaque_l_Humerus_bone
+      position: {x: 0.000000114440915, y: -0.000000047683713, z: -0.000000095367426}
+      rotation: {x: 0.25771663, y: 0.00000064820046, z: 0.000000111758695, w: 0.9662205}
+      scale: {x: 0.9999997, y: 0.99999934, z: 1.0000004}
+    - name: macaque_l_Forearm_bone
+      parentName: macaque_l_Humerus_bone
+      position: {x: -0.09466796, y: -0.000000104904174, z: -0.000000023841856}
+      rotation: {x: -0.009190379, y: 0.019778626, z: -0.024958415, w: 0.99945056}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1.0000001}
+    - name: macaque_l_ForearmRoll2_bone
+      parentName: macaque_l_Forearm_bone
+      position: {x: -0.057207484, y: -0.000000019073488, z: 0.00000004291535}
+      rotation: {x: 0.22051218, y: 0.00000040651872, z: 0.00000059078866, w: 0.97538424}
+      scale: {x: 0.9999999, y: 0.99999994, z: 1}
+    - name: macaque_l_ForearmRoll1_bone
+      parentName: macaque_l_Forearm_bone
+      position: {x: -0.11416562, y: 0.00000020980836, z: -0.000000109672555}
+      rotation: {x: 0.4592671, y: 0.0000011324877, z: 0.0000012531231, w: 0.8882982}
+      scale: {x: 0.99999994, y: 1.0000004, z: 1.0000001}
+    - name: macaque_l_Hand_bone
+      parentName: macaque_l_Forearm_bone
+      position: {x: -0.17084314, y: 0.000000019073488, z: -0.000000071525584}
+      rotation: {x: 0.5973035, y: -0.069264665, z: -0.0813009, w: 0.7948717}
+      scale: {x: 1.0000004, y: 0.9999996, z: 0.99999994}
+    - name: macaque_l_Hand_nub_bone
+      parentName: macaque_l_Hand_bone
+      position: {x: -0.063500814, y: 0.000000004768372, z: -0.000000019073488}
+      rotation: {x: 0, y: -0, z: -0.0000000819564, w: 1}
+      scale: {x: 0.9999999, y: 0.9999999, z: 1.0000001}
+    - name: macaque_l_Thumb_1_bone
+      parentName: macaque_l_Hand_bone
+      position: {x: -0.028477242, y: -0.011857301, z: 0.018493148}
+      rotation: {x: 0.7676422, y: -0.3009065, z: -0.2294083, w: -0.5172548}
+      scale: {x: 1.0000002, y: 1.0000002, z: 0.99999994}
+    - name: macaque_l_Thumb_2_bone
+      parentName: macaque_l_Thumb_1_bone
+      position: {x: -0.022234162, y: -0.000000007152557, z: 0.000000009536743}
+      rotation: {x: 0.00000011920923, y: -0, z: -0.011631234, w: 0.99993235}
+      scale: {x: 1.0000004, y: 1.0000006, z: 0.99999994}
+    - name: macaque_l_Thumb_2_nub_bone
+      parentName: macaque_l_Thumb_2_bone
+      position: {x: -0.020565461, y: 0.0000000023841857, z: 0.000000014305114}
+      rotation: {x: 0, y: -0, z: -0.00000008568169, w: 1}
+      scale: {x: 0.9999998, y: 0.9999999, z: 0.9999998}
+    - name: macaque_l_Pinky_1_bone
+      parentName: macaque_l_Hand_bone
+      position: {x: -0.061236538, y: 0.0029667951, z: -0.017497187}
+      rotation: {x: 0.0007299185, y: -0.01131852, z: 0.014185954, w: 0.9998351}
+      scale: {x: 1.0000001, y: 1.0000002, z: 0.99999994}
+    - name: macaque_l_Pinky_2_bone
+      parentName: macaque_l_Pinky_1_bone
+      position: {x: -0.018870153, y: -0.0000000333786, z: 0.000000014305114}
+      rotation: {x: 0.000000011874358, y: 0.000000063329914, z: -0.019655302, w: 0.9998069}
+      scale: {x: 0.9999998, y: 0.9999996, z: 1.0000001}
+    - name: macaque_l_Pinky_3_bone
+      parentName: macaque_l_Pinky_2_bone
+      position: {x: -0.01603527, y: 0.000000009536743, z: -0.0000000023841857}
+      rotation: {x: 0.0000076691085, y: -0.00010555211, z: 0.021645924, w: 0.9997657}
+      scale: {x: 0.9999998, y: 0.99999994, z: 1.0000005}
+    - name: macaque_l_Pinky_3_nub_bone
+      parentName: macaque_l_Pinky_3_bone
+      position: {x: -0.014544811, y: 0.0000000047683715, z: 0.000000038146972}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: macaque_l_Ring_1_bone
+      parentName: macaque_l_Hand_bone
+      position: {x: -0.06123651, y: 0.002966776, z: -0.00526274}
+      rotation: {x: 0.0001712143, y: -0.007757267, z: 0.023503384, w: 0.9996937}
+      scale: {x: 0.9999998, y: 1.0000002, z: 0.9999997}
+    - name: macaque_l_Ring_2_bone
+      parentName: macaque_l_Ring_1_bone
+      position: {x: -0.021000393, y: -0.000000023841855, z: 0.000000009536742}
+      rotation: {x: 0.00000003236345, y: -0.000000052154046, z: 0.0015130765, w: 0.99999887}
+      scale: {x: 0.9999998, y: 0.9999998, z: 0.99999994}
+    - name: macaque_l_Ring_3_bone
+      parentName: macaque_l_Ring_2_bone
+      position: {x: -0.017934283, y: 0.0000000047683715, z: -0.000000011920928}
+      rotation: {x: 0.0000072725024, y: -0.000105548046, z: 0.01634248, w: 0.99986655}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000007}
+    - name: macaque_l_Ring_3_nub_bone
+      parentName: macaque_l_Ring_3_bone
+      position: {x: -0.017773628, y: -0.0000000333786, z: -0.000000014305115}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: macaque_l_Middle_1_bone
+      parentName: macaque_l_Hand_bone
+      position: {x: -0.06123646, y: 0.002966776, z: 0.0073661357}
+      rotation: {x: 0.0001712441, y: -0.0077566784, z: 0.02350309, w: 0.99969363}
+      scale: {x: 0.9999998, y: 1.0000002, z: 0.9999997}
+    - name: macaque_l_Middle_2_bone
+      parentName: macaque_l_Middle_1_bone
+      position: {x: -0.02100043, y: -0.000000004768371, z: 0.000000004768371}
+      rotation: {x: 0.00000003236345, y: -0.000000052154046, z: 0.0015130765, w: 0.99999887}
+      scale: {x: 0.9999998, y: 0.9999998, z: 0.99999994}
+    - name: macaque_l_Middle_3_bone
+      parentName: macaque_l_Middle_2_bone
+      position: {x: -0.017934246, y: -0.000000009536743, z: -0.000000022649765}
+      rotation: {x: 0.0000071268832, y: -0.00010547252, z: 0.016342392, w: 0.9998665}
+      scale: {x: 0.9999998, y: 0.9999999, z: 1.0000001}
+    - name: macaque_l_Middle_3_nub_bone
+      parentName: macaque_l_Middle_3_bone
+      position: {x: -0.017773705, y: -0.000000019073488, z: 0.00000000834465}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: macaque_l_Index_1_bone
+      parentName: macaque_l_Hand_bone
+      position: {x: -0.06123644, y: 0.002966781, z: 0.018444596}
+      rotation: {x: 0.013348755, y: 0.047585804, z: 0.029042862, w: 0.9983556}
+      scale: {x: 1, y: 1.0000004, z: 0.99999946}
+    - name: macaque_l_Index_2_bone
+      parentName: macaque_l_Index_1_bone
+      position: {x: -0.021000354, y: -0.000000009536742, z: -0.0000000023841855}
+      rotation: {x: 0.000000044703462, y: -0.000000093132215, z: 0.0015130021, w: 0.99999887}
+      scale: {x: 1.0000001, y: 0.9999998, z: 1.0000004}
+    - name: macaque_l_Index_3_bone
+      parentName: macaque_l_Index_2_bone
+      position: {x: -0.017934281, y: 0.000000009536742, z: -0.000000004768371}
+      rotation: {x: 0.0000072776966, y: -0.000105481326, z: 0.016342418, w: 0.9998665}
+      scale: {x: 0.9999999, y: 0.99999994, z: 1.0000001}
+    - name: macaque_l_Index_3_nub_bone
+      parentName: macaque_l_Index_3_bone
+      position: {x: -0.017773742, y: 0.000000047683713, z: 0.000000009536743}
+      rotation: {x: 0, y: -0, z: -0.0000001862645, w: 1}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1.0000001}
+    - name: macaque_l_Thigh_bone
+      parentName: macaque_Pelvis_bone
+      position: {x: -0.058453225, y: 0.032002304, z: -0.054282755}
+      rotation: {x: -0.14270371, y: -0.034161206, z: 0.008739638, w: 0.9891372}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000002}
+    - name: macaque_l_Knee_bone
+      parentName: macaque_l_Thigh_bone
+      position: {x: -0.16606174, y: 0.000000028610229, z: 0.000000014305114}
+      rotation: {x: 0.014116332, y: -0.021340378, z: 0.29014385, w: 0.956641}
+      scale: {x: 1.0000005, y: 1.0000005, z: 1.0000004}
+    - name: macaque_l_Ankle_bone
+      parentName: macaque_l_Knee_bone
+      position: {x: -0.13597164, y: -0.000000038146975, z: 0.000000009536744}
+      rotation: {x: -0.020358609, y: 0.14719655, z: -0.98721695, w: -0.05763323}
+      scale: {x: 0.9999998, y: 0.99999994, z: 1.0000002}
+    - name: macaque_l_Foot_bone
+      parentName: macaque_l_Ankle_bone
+      position: {x: -0.048348237, y: 0.000000008940696, z: -0.0000000333786}
+      rotation: {x: -0.00000003341119, y: -0.00000026775518, z: -0.14774194, w: 0.98902595}
+      scale: {x: 1.0000001, y: 0.9999992, z: 1.0000005}
+    - name: macaque_l_Foot_nub_bone
+      parentName: macaque_l_Foot_bone
+      position: {x: -0.037538975, y: 0.0000000023841857, z: 0.000000014305114}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.99999976, y: 0.99999976, z: 1}
+    - name: macaque_l_Finger1_1_bone
+      parentName: macaque_l_Foot_bone
+      position: {x: 0.005381498, y: -0.005547099, z: 0.018065667}
+      rotation: {x: -0.7997821, y: 0.066176794, z: 0.3781751, w: 0.461468}
+      scale: {x: 0.9999997, y: 1.0000001, z: 0.9999998}
+    - name: macaque_l_Finger1_2_bone
+      parentName: macaque_l_Finger1_1_bone
+      position: {x: -0.022234162, y: 0.0000000035762786, z: -0.0000000017881393}
+      rotation: {x: -0.000000029802315, y: -0.00000016018744, z: -0.09873673, w: 0.99511355}
+      scale: {x: 1.0000004, y: 1, z: 0.9999997}
+    - name: macaque_l_Finger1_2_nub_bone
+      parentName: macaque_l_Finger1_2_bone
+      position: {x: -0.020565417, y: 0.000000015497207, z: 0.00000000834465}
+      rotation: {x: 0, y: -0, z: -0.0000003986061, w: 1}
+      scale: {x: 0.99999976, y: 0.9999999, z: 0.9999996}
+    - name: macaque_l_Finger4_1_bone
+      parentName: macaque_l_Foot_bone
+      position: {x: -0.029255804, y: 0.004038762, z: -0.0063034915}
+      rotation: {x: 0.0028165868, y: -0.016324086, z: 0.031479616, w: 0.9993671}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1.0000001}
+    - name: macaque_l_Finger4_2_bone
+      parentName: macaque_l_Finger4_1_bone
+      position: {x: -0.022661792, y: -0.0000000166893, z: 0.000000014305114}
+      rotation: {x: -0.000000016996633, y: 0.0000001583248, z: 0.09660818, w: 0.99532247}
+      scale: {x: 1, y: 0.99999994, z: 1.0000001}
+    - name: macaque_l_Finger4_3_bone
+      parentName: macaque_l_Finger4_2_bone
+      position: {x: -0.016987843, y: 0.0000000047683715, z: -0.000000028610229}
+      rotation: {x: 0.0000014125602, y: -0.00010551272, z: 0.10410611, w: 0.99456626}
+      scale: {x: 0.9999998, y: 0.9999996, z: 1.0000007}
+    - name: macaque_l_Finger4_3_nub_bone
+      parentName: macaque_l_Finger4_3_bone
+      position: {x: -0.017136874, y: 0, z: 0.000000023841856}
+      rotation: {x: 0.0000001495937, y: -0, z: -0, w: 1}
+      scale: {x: 0.99999976, y: 0.99999964, z: 1}
+    - name: macaque_l_Finger3_1_bone
+      parentName: macaque_l_Foot_bone
+      position: {x: -0.02933013, y: 0.00403643, z: 0.0045501324}
+      rotation: {x: 0.001156299, y: 0.007956341, z: 0.053514663, w: 0.99853474}
+      scale: {x: 1.0000005, y: 0.99999994, z: 1.0000002}
+    - name: macaque_l_Finger3_2_bone
+      parentName: macaque_l_Finger3_1_bone
+      position: {x: -0.025793068, y: -0.000000023841855, z: 0.0000000143051135}
+      rotation: {x: -0.000000007683409, y: -0.000000013038512, z: 0.086245686, w: 0.9962739}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1.0000006}
+    - name: macaque_l_Finger3_3_bone
+      parentName: macaque_l_Finger3_2_bone
+      position: {x: -0.017527873, y: 0.0000000023841855, z: -0.000000023841855}
+      rotation: {x: 0.000017935732, y: -0.00010401452, z: 0.076357044, w: 0.9970805}
+      scale: {x: 0.9999996, y: 0.9999996, z: 1}
+    - name: macaque_l_Finger3_3_nub_bone
+      parentName: macaque_l_Finger3_3_bone
+      position: {x: -0.019246548, y: 0.000000004768372, z: 0}
+      rotation: {x: 0.00000013859243, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000002}
+    - name: macaque_l_Finger5_1_bone
+      parentName: macaque_l_Foot_bone
+      position: {x: -0.029275512, y: 0.004034711, z: -0.017924719}
+      rotation: {x: 0.009410682, y: -0.059106562, z: 0.044068143, w: 0.99723417}
+      scale: {x: 1.0000005, y: 1.0000001, z: 0.99999994}
+    - name: macaque_l_Finger5_2_bone
+      parentName: macaque_l_Finger5_1_bone
+      position: {x: -0.020495858, y: -0.000000027418135, z: 0}
+      rotation: {x: 9.3132246e-10, y: -0.000000048428767, z: 0.047337662, w: 0.998879}
+      scale: {x: 1.0000002, y: 0.9999996, z: 1.0000001}
+    - name: macaque_l_Finger5_3_bone
+      parentName: macaque_l_Finger5_2_bone
+      position: {x: -0.015684728, y: 0.0000000023841857, z: 0}
+      rotation: {x: -0.00000192251, y: -0.00010553883, z: 0.10390193, w: 0.99458754}
+      scale: {x: 1, y: 0.99999934, z: 1.0000001}
+    - name: macaque_l_Finger5_3_nub_bone
+      parentName: macaque_l_Finger5_3_bone
+      position: {x: -0.013930364, y: -0.0000000047683715, z: -0.000000014305114}
+      rotation: {x: 0, y: 0.00000033667314, z: -0, w: 1}
+      scale: {x: 0.9999998, y: 0.99999976, z: 1}
+    - name: macaque_l_Finger2_1_bone
+      parentName: macaque_l_Foot_bone
+      position: {x: -0.029553374, y: 0.00405769, z: 0.0152907325}
+      rotation: {x: 0.0070751603, y: 0.057978522, z: 0.06667992, w: 0.99606335}
+      scale: {x: 1.0000002, y: 0.9999997, z: 0.99999994}
+    - name: macaque_l_Finger2_2_bone
+      parentName: macaque_l_Finger2_1_bone
+      position: {x: -0.023511546, y: -0.00000002622604, z: -0.0000000143051135}
+      rotation: {x: -0.00000004144384, y: -0.00000013411041, z: 0.055783197, w: 0.99844295}
+      scale: {x: 0.99999994, y: 0.9999998, z: 1.0000001}
+    - name: macaque_l_Finger2_3_bone
+      parentName: macaque_l_Finger2_2_bone
+      position: {x: -0.015113828, y: 0.0000000023841857, z: 0.000000023841856}
+      rotation: {x: 0.00002113143, y: -0.000103747705, z: 0.06326109, w: 0.997997}
+      scale: {x: 1.0000004, y: 0.99999994, z: 1.0000001}
+    - name: macaque_l_Finger2_3_nub_bone
+      parentName: macaque_l_Finger2_3_bone
+      position: {x: -0.01627132, y: -0.000000009536743, z: -0.000000019073486}
+      rotation: {x: -0.00000026985077, y: -0.00000017930874, z: 6.07011e-21, w: 1}
+      scale: {x: 0.9999996, y: 0.99999964, z: 0.99999994}
+    - name: macaque_Tail_1_bone
+      parentName: macaque_Pelvis_bone
+      position: {x: -0.09307698, y: 0, z: -0.000000020949244}
+      rotation: {x: -0.00000092759717, y: 0.00000021606681, z: -0.54532695, w: 0.83822346}
+      scale: {x: 1, y: 1, z: 1.0000002}
+    - name: macaque_Tail_2_bone
+      parentName: macaque_Tail_1_bone
+      position: {x: -0.04166805, y: -0.000000026235357, z: -0.000000009536743}
+      rotation: {x: -0.00000025416767, y: 0.0000000031186425, z: 0.13088691, w: 0.99139726}
+      scale: {x: 1.0000005, y: 0.9999998, z: 0.9999998}
+    - name: macaque_Tail_3_bone
+      parentName: macaque_Tail_2_bone
+      position: {x: -0.047007788, y: 0.000000019073486, z: -0.000000047683713}
+      rotation: {x: -0.00000005687695, y: -0.00000012116217, z: -0.017601056, w: 0.99984515}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000006}
+    - name: macaque_Tail_4_bone
+      parentName: macaque_Tail_3_bone
+      position: {x: -0.047801603, y: -0.0000000143051135, z: 0.000000057220454}
+      rotation: {x: 0.00000008076148, y: -0.00000008563065, z: -0.011482825, w: 0.9999341}
+      scale: {x: 0.9999998, y: 1, z: 1}
+    - name: macaque_Tail_5_bone
+      parentName: macaque_Tail_4_bone
+      position: {x: -0.041190833, y: -0.000000047683713, z: 0.000000019073486}
+      rotation: {x: -0.000000035370036, y: -0.0000000048242215, z: 0.01515905, w: 0.99988514}
+      scale: {x: 1.0000005, y: 1.0000006, z: 1.0000002}
+    - name: macaque_Tail_6_bone
+      parentName: macaque_Tail_5_bone
+      position: {x: -0.044973545, y: -0.000000038146972, z: -0.000000019073486}
+      rotation: {x: 0.000000062354026, y: -0.00000005751252, z: 0.047060996, w: 0.99889207}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1.0000002}
+    - name: macaque_Tail_7_bone
+      parentName: macaque_Tail_6_bone
+      position: {x: -0.034734916, y: -0.00000004649162, z: -0.000000038146972}
+      rotation: {x: -0.000000025005884, y: -0.0000000026469273, z: 0.05755898, w: 0.9983421}
+      scale: {x: 1, y: 0.9999998, z: 0.9999996}
+    - name: macaque_Tail_7_nub_bone
+      parentName: macaque_Tail_7_bone
+      position: {x: -0.04373557, y: 0.000000028610229, z: 0}
+      rotation: {x: -0.00000022444878, y: -0.00000011002704, z: 1.8335955e-21, w: 1}
+      scale: {x: 1, y: 1, z: 0.9999997}
+    - name: Body
+      parentName: Monkey_B1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Eye
+      parentName: Monkey_B1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

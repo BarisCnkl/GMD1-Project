@@ -18,13 +18,20 @@ public class StoneDamage : MonoBehaviour
 
         if (enemy != null)
         {
+            EnemyAnimation enemyAnimation = enemy.GetComponent<EnemyAnimation>();
+
+            if (enemyAnimation != null)
+            {
+                enemyAnimation.PlayDeath();
+            }
+
             GameUI gameUI = FindFirstObjectByType<GameUI>();
             if (gameUI != null)
             {
                 gameUI.AddKill();
             }
 
-            Destroy(enemy.gameObject);
+            Destroy(enemy.gameObject, 1.5f);
             Destroy(gameObject);
         }
     }
